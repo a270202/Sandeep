@@ -13,6 +13,7 @@ const App = () => {
         <Route path="/dashboard/text1" element={<SubDashboard title="Text1 Dashboard" />} />
         <Route path="/dashboard/text2" element={<SubDashboard title="Text2 Dashboard" />} />
         <Route path="/dashboard/text3" element={<SubDashboard title="Text3 Dashboard" />} />
+        <Route path="/dashboard/:dashboardName/:file" element={<CardPage />} />
       </Routes>
     </Router>
   );
